@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c18" />
+      <stop offset="50%" stop-color="#0b1528" />
+      <stop offset="100%" stop-color="#080e1c" />
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="cyanGlow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="80%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+    <linearGradient id="roleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .name-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 40px; font-weight: 800; fill: url(#nameGrad); letter-spacing: 0.5px; }
+    .role-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 21px; font-weight: 600; fill: url(#roleGrad); letter-spacing: 2px; text-transform: uppercase; }
+    .tagline { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; fill: #94a3b8; font-weight: 400; }
+    .email-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13.5px; fill: #38bdf8; font-weight: 500; }
+    .mesh-line { stroke: #38bdf8; stroke-opacity: 0.35; stroke-width: 1.2; stroke-dasharray: 2 1; }
+    .mesh-node { fill: #38bdf8; filter: drop-shadow(0 0 6px #00f2fe); }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="url(#cyanGlow)" />
+  <rect width="1200" height="360" rx="16" fill="url(#purpleGlow)" />
+
+  <!-- Outer Border -->
+  <rect width="1198" height="358" x="1" y="1" rx="15" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- Geometric Polygon Mesh - Left Side -->
+  <g id="left-mesh">
+    <!-- Lines -->
+    <line x1="40" y1="60" x2="110" y2="120" class="mesh-line" />
+    <line x1="110" y1="120" x2="60" y2="200" class="mesh-line" />
+    <line x1="60" y1="200" x2="160" y2="180" class="mesh-line" />
+    <line x1="110" y1="120" x2="160" y2="180" class="mesh-line" />
+    <line x1="160" y1="180" x2="220" y2="110" class="mesh-line" />
+    <line x1="110" y1="120" x2="220" y2="110" class="mesh-line" />
+    <line x1="220" y1="110" x2="260" y2="190" class="mesh-line" />
+    <line x1="160" y1="180" x2="260" y2="190" class="mesh-line" />
+    <line x1="160" y1="180" x2="190" y2="280" class="mesh-line" />
+    <line x1="60" y1="200" x2="100" y2="300" class="mesh-line" />
+    <line x1="100" y1="300" x2="190" y2="280" class="mesh-line" />
+    <line x1="190" y1="280" x2="260" y2="190" class="mesh-line" />
+    <line x1="260" y1="190" x2="310" y2="250" class="mesh-line" />
+
+    <!-- Nodes -->
+    <circle cx="40" cy="60" r="3.5" class="mesh-node" />
+    <circle cx="110" cy="120" r="4.5" class="mesh-node" />
+    <circle cx="60" cy="200" r="4" class="mesh-node" />
+    <circle cx="160" cy="180" r="5" class="mesh-node" />
+    <circle cx="220" cy="110" r="4.5" class="mesh-node" />
+    <circle cx="260" cy="190" r="5.5" class="mesh-node" fill="#00f2fe" />
+    <circle cx="190" cy="280" r="4" class="mesh-node" />
+    <circle cx="100" cy="300" r="3.5" class="mesh-node" />
+    <circle cx="310" cy="250" r="4" class="mesh-node" />
+  </g>
+
+  <!-- Geometric Polygon Mesh - Right Side -->
+  <g id="right-mesh">
+    <!-- Lines -->
+    <line x1="1140" y1="70" x2="1060" y2="130" class="mesh-line" />
+    <line x1="1060" y1="130" x2="1120" y2="210" class="mesh-line" />
+    <line x1="1060" y1="130" x2="980" y2="110" class="mesh-line" />
+    <line x1="980" y1="110" x2="940" y2="190" class="mesh-line" />
+    <line x1="1060" y1="130" x2="1020" y2="220" class="mesh-line" />
+    <line x1="940" y1="190" x2="1020" y2="220" class="mesh-line" />
+    <line x1="1120" y1="210" x2="1020" y2="220" class="mesh-line" />
+    <line x1="1020" y1="220" x2="1050" y2="295" class="mesh-line" />
+    <line x1="940" y1="190" x2="890" y2="260" class="mesh-line" />
+    <line x1="890" y1="260" x2="990" y2="300" class="mesh-line" />
+    <line x1="990" y1="300" x2="1050" y2="295" class="mesh-line" />
+    <line x1="890" y1="260" x2="840" y2="200" class="mesh-line" />
+    <line x1="940" y1="190" x2="840" y2="200" class="mesh-line" />
+
+    <!-- Nodes -->
+    <circle cx="1140" cy="70" r="3.5" class="mesh-node" />
+    <circle cx="1060" cy="130" r="4.5" class="mesh-node" />
+    <circle cx="1120" cy="210" r="4" class="mesh-node" />
+    <circle cx="980" cy="110" r="4.5" class="mesh-node" />
+    <circle cx="940" cy="190" r="5.5" class="mesh-node" fill="#00f2fe" />
+    <circle cx="1020" cy="220" r="4.5" class="mesh-node" />
+    <circle cx="1050" cy="295" r="3.5" class="mesh-node" />
+    <circle cx="890" cy="260" r="4" class="mesh-node" />
+    <circle cx="990" cy="300" r="4" class="mesh-node" />
+    <circle cx="840" cy="200" r="3.5" class="mesh-node" />
+  </g>
+
+  <!-- Center Content Container -->
+  <!-- Name -->
+  <text x="600" y="85" text-anchor="middle" class="name-title">MD Shaheenur Rashid</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="122" text-anchor="middle" class="role-title">Full-Stack Web Developer</text>
+
+  <!-- Tech Stack Icon Badges Bar -->
+  <g transform="translate(600, 185)">
+    <!-- Pill container -->
+    <rect x="-360" y="-30" width="720" height="56" rx="28" fill="url(#glassGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.2" />
+
+    <!-- Badges Row -->
+    <!-- HTML5 -->
+    <g transform="translate(-320, -18)">
+      <rect width="60" height="34" rx="8" fill="#e34f26" fill-opacity="0.2" stroke="#e34f26" stroke-width="1" />
+      <text x="30" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f06529" text-anchor="middle">HTML5</text>
+    </g>
+
+    <!-- CSS3 -->
+    <g transform="translate(-250, -18)">
+      <rect width="55" height="34" rx="8" fill="#1572b6" fill-opacity="0.2" stroke="#1572b6" stroke-width="1" />
+      <text x="27.5" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2965f1" text-anchor="middle">CSS3</text>
+    </g>
+
+    <!-- JS -->
+    <g transform="translate(-185, -18)">
+      <rect width="45" height="34" rx="8" fill="#f7df1e" fill-opacity="0.2" stroke="#f7df1e" stroke-width="1" />
+      <text x="22.5" y="22" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f7df1e" text-anchor="middle">JS</text>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(-130, -18)">
+      <rect width="65" height="34" rx="8" fill="#61dafb" fill-opacity="0.2" stroke="#61dafb" stroke-width="1" />
+      <text x="32.5" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#61dafb" text-anchor="middle">React</text>
+    </g>
+
+    <!-- Next.js -->
+    <g transform="translate(-55, -18)">
+      <rect width="70" height="34" rx="8" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="1" />
+      <text x="35" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Next.js</text>
+    </g>
+
+    <!-- Node.js -->
+    <g transform="translate(25, -18)">
+      <rect width="68" height="34" rx="8" fill="#339933" fill-opacity="0.2" stroke="#339933" stroke-width="1" />
+      <text x="34" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#68a063" text-anchor="middle">Node.js</text>
+    </g>
+
+    <!-- Express -->
+    <g transform="translate(103, -18)">
+      <rect width="70" height="34" rx="8" fill="#888888" fill-opacity="0.2" stroke="#aaaaaa" stroke-width="1" />
+      <text x="35" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dddddd" text-anchor="middle">Express</text>
+    </g>
+
+    <!-- MongoDB -->
+    <g transform="translate(183, -18)">
+      <rect width="75" height="34" rx="8" fill="#4ea94b" fill-opacity="0.2" stroke="#4ea94b" stroke-width="1" />
+      <text x="37.5" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#4ea94b" text-anchor="middle">MongoDB</text>
+    </g>
+
+    <!-- Tailwind -->
+    <g transform="translate(268, -18)">
+      <rect width="62" height="34" rx="8" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+      <text x="31" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#38bdf8" text-anchor="middle">Tailwind</text>
+    </g>
+  </g>
+
+  <!-- Tagline -->
+  <text x="600" y="260" text-anchor="middle" class="tagline">
+    Building web solutions that are clean, easy to maintain, and built for the future
+  </text>
+
+  <!-- Contact Pill -->
+  <g transform="translate(600, 305)">
+    <rect x="-170" y="-18" width="340" height="32" rx="16" fill="#0369a1" fill-opacity="0.2" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1" />
+    <text x="0" y="3" text-anchor="middle" class="email-text">✉ shahinurmubarak238@gmail.com</text>
+  </g>
+</svg>
