@@ -1,6 +1,6 @@
 <p align="center">
   <img 
-    src="./assets/header.svg"
+    src="./assets/banner2.png"
     alt="MD Shaheenur Rashid Banner"
     width="100%"
   />
@@ -95,8 +95,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=shaheenio20&show_icons=true&theme=tokyonight&bg_color=0b1220&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=shaheenio20&show_icons=true&layout=compact&theme=tokyonight&bg_color=0b1220&hide_border=true&count_private=true" width="42%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=shaheenio20&show_icons=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=38bdf8&border_color=30363d&border_radius=8&count_private=true&include_all_commits=true" height="190" alt="Shaheenur's GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=shaheenio20&layout=compact&langs_count=6&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=30363d&border_radius=8&count_private=true" height="190" alt="Top Languages" />
 </p>
 
 ---
