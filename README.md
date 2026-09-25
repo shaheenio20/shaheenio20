@@ -95,8 +95,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=shaheenio20&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=shaheenio20&show_icons=true&layout=compact&theme=tokyonight&hide_border=true&count_private=true" width="42%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=shaheenio20&show_icons=true&theme=tokyonight&bg_color=0b1220&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=shaheenio20&show_icons=true&layout=compact&theme=tokyonight&bg_color=0b1220&hide_border=true&count_private=true" width="42%" alt="Top Languages" />
 </p>
 
 ---
