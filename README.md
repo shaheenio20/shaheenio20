@@ -88,7 +88,6 @@
 <p align="left">
   <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=api&logoColor=white" alt="REST API" />
   <img src="https://img.shields.io/badge/Responsive_Design-007ACC?style=for-the-badge" alt="Responsive Design" />
-  <img src="https://img.shields.io/badge/JWT_Authentication-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white" alt="JWT Authentication" />
 </p>
 
 ---
