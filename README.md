@@ -3,7 +3,6 @@
     src="./assets/banner2.png"
     alt="MD Shaheenur Rashid Banner"
     width="100%"
-    rounded-lg
   />
 </p>
 
